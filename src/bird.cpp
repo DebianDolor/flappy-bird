@@ -155,7 +155,7 @@ void Bird::update(Pipe& b1, Pipe& b2, bool mainScreen)
             playerStatus = DEAD;
         }
 
-        if ((getTopRightX(angle) > b1.getX() + 3 || getBottomRigfhtX(angle) > b1.getX() + 5)
+        if ((getTopRightX(angle) > b1.getX() + 3 || getBottomRightX(angle) > b1.getX() + 5)
          && (getBottomLeftX(angle) < b1.getX() + (float)b1.getWidth() - 5 
                || getTopLeftX(angle) < b1.getX() + (float)b1.getWidth() + 5))
         {
