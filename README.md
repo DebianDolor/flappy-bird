@@ -1,2 +1,4 @@
 # flappy-bird
-An C++ game using SDL2
+A C++ game using SDL2
+
+# 
